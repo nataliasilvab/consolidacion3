@@ -14,50 +14,8 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
-
-.scroll-container {
-    width: 800px;
-    height: 800px;
-    overflow: auto;
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-.scroll-item {
-    width: 100%;
-    height: 100px;
-    background: #f0f0f0;
-    margin-bottom: 10px;
-    text-align: center;
-    line-height: 100px;
-}
-
-/* Personalizar la barra de scroll */
-::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
-}
-
-/* Personalizar el track de la barra de scroll */
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-/* Personalizar el pulgar de la barra de scroll */
-::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 6px;
-}
-
-/* Cambiar el color del pulgar al pasar el mouse */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-
 
 .container {
   display: flex;
@@ -153,9 +111,8 @@ body {
 .msg_card_body {
   overflow-y: auto;
 }
-.card-header {  
+.card-header {
   background-image: url("../img/wsp.jpeg");
-  
 }
 .card-footer {
   border-radius: 0 0 15px 15px !important;
@@ -229,7 +186,6 @@ body {
   width: 40px;
   border: 1.5px solid #f5f6fa;
   margin-right: 10px;
-  
 }
 .img_cont {
   position: relative;
@@ -256,7 +212,6 @@ body {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 15px;
-  
 }
 .user_info span {
   font-size: 25px;
@@ -312,19 +267,16 @@ body {
   font-weight: 700;
 }
 
-
 .left {
-    float: left;
-    width: 50%;
-    
+  float: left;
+  width: 50%;
 }
 
-.box-msg{
+.box-msg {
   margin-top: 10px;
   margin-bottom: auto;
   margin-left: auto;
 }
-
 
 @media (max-width: 576px) {
   .contacts_card {
@@ -332,26 +284,25 @@ body {
   }
 }
 
-.avatar{
-  border-radius: 50%; 
+.avatar {
+  border-radius: 50%;
   width: 60px;
 }
 .notificacion {
-    position: relative;
-    display: inline-block;
-    padding: 10px;  
-    border-radius: 5px;
-    cursor: pointer;
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .badge-dot {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    border-radius: 50%;
-    border: 2px solid white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  border: 2px solid white;
 }
-
